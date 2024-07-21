@@ -13,7 +13,7 @@ export const mealsSlice = createSlice({
     toggleMealSelection: (state, action) => {
         state[action.payload].selected = !state[action.payload].selected;
     },
-  },
+  }
 });
 
 export const { toggleMealSelection } = mealsSlice.actions;
